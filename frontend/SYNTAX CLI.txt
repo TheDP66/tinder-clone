@@ -1,0 +1,22 @@
+Creating App:
+npx create-react-app tinder-clone
+
+Installing Dependencies:
+npm i @material-ui/core
+npm i @material-ui/icons
+npm i react-tinder-card
+npm i axios
+npm i --save react-helmet
+npm i -g firebase-tools
+
+Run App:
+npm start
+
+Setup Firebase:
+firebase login
+firebase init
+* choose hosting: configure files for firebase hosting...
+* use an existing project
+* change "(public)" to "build"
+npm run build
+firebase deploy
